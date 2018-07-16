@@ -1,0 +1,76 @@
+/*! =========================================================
+ *
+ * Material Kit React v1.0.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition)
+ *
+ * =========================================================
+ *
+ * Product Page: https://www.creative-tim.com/product/material-kit-pro
+ * Available with purchase of license from https://www.creative-tim.com/product/material-kit-pro
+ * Copyright 2018 Creative Tim (https://www.creative-tim.com)
+ * License Creative Tim (https://www.creative-tim.com/license)
+ *
+ * ========================================================= */
+
+@import "core/variables";
+@import "core/mixins";
+
+// Core Components
+@import "core/misc";
+
+// Core Plugins
+
+// @import "plugins/plugin-datetime-picker";
+@import "plugins/plugin-nouislider";
+@import "plugins/plugin-react-datetime";
+@import "plugins/plugin-react-slick";
+
+
+// Overwrite
+.material-icons {
+	font-size: 12px !important;
+}
+
+.InfoArea-infoArea-290 {
+	max-width: 100% !important;
+}
+
+.check-icon {
+	font-size: 14px;
+	font-weight: bold;
+
+	.material-icons {
+		font-size: 18px !important;
+	}
+}
+
+.reviews, .facilities {
+	button {
+		padding: 2px;
+	}
+}
+
+.quote {
+	p {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	small {
+		font-size: 17px;
+		font-weight: bold;
+	}
+}
+
+.hello {
+	height: 400px;
+}
+
+.newButton {
+	background-color: transparent !important;
+	color: inherit !important;
+	box-shadow: none !important;
+	padding: 6px 6px !important;
+}
+
+.main_page {
+	min-height: 500px;
+}
